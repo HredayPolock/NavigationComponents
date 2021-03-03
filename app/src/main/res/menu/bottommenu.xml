@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Schedule"
+        android:id="@id/scheduleFragment"
+
+
+        android:icon="@drawable/ic_action_schedule"
+        app:showAsAction="never"
+      />
+
+    <item
+
+
+        android:id="@id/about"
+
+        android:icon="@drawable/laundry"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:title="Order Now"
+        android:id="@id/bookmark"
+        app:showAsAction="never"
+
+        android:icon="@drawable/bookmark"
+      />
+
+</menu>

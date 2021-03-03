@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.navigationcomponentwithbottomnavigationanddrawer.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.navigationcomponentwithbottomnavigationanddrawer.AboutFragment"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/bookmark"
+        android:name="com.example.navigationcomponentwithbottomnavigationanddrawer.BookmarkFragment"
+        tools:layout="@layout/fragment_bookmark" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.navigationcomponentwithbottomnavigationanddrawer.ScheduleFragment"
+        tools:layout="@layout/fragment_schedule" />
+    <activity
+        android:id="@+id/newActivity"
+        android:name="com.example.navigationcomponentwithbottomnavigationanddrawer.NewActivity"
+        android:label="activity_new"
+        tools:layout="@layout/activity_new" />
+
+
+</navigation>
